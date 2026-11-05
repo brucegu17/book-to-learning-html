@@ -1,0 +1,60 @@
+{
+  "version": "1.4",
+  "static": {
+    "skill_format": "passed",
+    "unique_ids_and_anchors": "passed",
+    "local_references": "passed",
+    "javascript_syntax": "passed",
+    "interaction_script_unchanged": true,
+    "palette_text_contrast": {
+      "#1d1b19 on #fbf9f5": 16.33,
+      "#655d55 on #fbf9f5": 6.14,
+      "#ab3422 on #fbf9f5": 6.15,
+      "#ab3422 on #f3e6e0": 5.3
+    }
+  },
+  "browser": {
+    "tool": "cua_repl native Chrome",
+    "desktop_visual": "passed for template overview only; native screenshot reviewed, no obvious overlap; not a full responsive or real-book review",
+    "interactions": {
+      "concept_body_search": "passed: 前提与边界 -> 1 项结果; AX state shows concept-example link",
+      "nested_details_navigation": "not_verified: URL changed but resulting panel state was not reliably observed",
+      "other_interactions": "not_verified"
+    },
+    "responsive_matrix": "not_verified: browser host unavailable; native Chrome active tab changed during verification"
+  },
+  "file_sha256": {
+    "SKILL.md": "eee589da00d52380a185895ef1a53a9807656e66a6c32e5671e347f771f6f5ff",
+    "references/structure.md": "cadfa5e8093f413581f3a62693b3090602b4b26f9ba2af5f08a3c86e3582ad89",
+    "references/html-delivery.md": "5a6e41c93ca383a9b0903ba9ff64b8690a140bf4c0e1bd306997fb18aa1a7ef1",
+    "references/reading-desk.md": "49980860e6c5c2da7543492670f73d2af17a013a432b1e851e724da1b9f1f42f",
+    "references/design-quality.md": "5f7f03fe98d59c2c0cb740f740c0c16bfdca84463cc841d811c3cbc6a2f29445",
+    "references/coverage.md": "d94339bd2428c92492c84fe6a73e5999e1e328accb6af5f61e39e5cffdc6724d",
+    "agents/openai.yaml": "6157346313ccff3c6c833a51d5d12cae2f460c50d41d2dfc8439d503e184ace2",
+    "scripts/audit_coverage.py": "eab1ac8513577137038f13ea1b1866f59a21be8b83fb1f27a91e0a8df97420d8",
+    "scripts/test_audit_coverage.py": "3e6a910b8f3eca957685cf07e4345e15696666116fdea0f2dd503bd8b455c1df",
+    "assets/reading-desk.css": "f7a4d2b244ef5b808733d3950f45502cd85b506e90242e400418e3bcd8d6279b",
+    "assets/reading-desk.html": "0335ac72c71f8a1b3619a37655cfaf3627ecb402c6ee3d042646efe9be4bdad5"
+  },
+  "not_verified": [
+    "390/768/1024px viewport matrix, 320px stress and 200% zoom",
+    "long real-book content",
+    "deep-link expanded result, empty search and clear, keyboard and mobile menu regressions",
+    "network request and console audit"
+  ],
+  "package_matches_source": true,
+  "release_matches_source": true,
+  "archives": {
+    "book-to-learning-html-v1.4.skill.zip": "7a1c2dc7b9eac5bc49946f3a57431aabd493f0f361a92261097b2de3d40b1093",
+    "book-to-learning-html-v1.4-agent.zip": "7a1c2dc7b9eac5bc49946f3a57431aabd493f0f361a92261097b2de3d40b1093"
+  },
+  "taste_skill_install": {
+    "status": "not_installed",
+    "attempts": [
+      "installer zip download interrupted after extended incomplete transfer",
+      "installer Git method failed: destination path already exists and is not an empty directory",
+      "Skills CLI failed: ENOTFOUND registry.npmjs.org"
+    ],
+    "destination_exists": false
+  }
+}

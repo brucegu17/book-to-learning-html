@@ -3,11 +3,13 @@
 把一本书或读书笔记，整理成**可离线打开、可追溯出处**的学习网页。  
 当前以 Codex 技能包形式发布，按智能体方式完成：范围核对 → 结构梳理 → 覆盖审查 → 页面生成 → 验收。
 
-[![版本 v1.3](https://img.shields.io/badge/版本-v1.3-b4533f)](https://github.com/brucegu17/book-to-learning-html/releases)
+[![版本 v1.4](https://img.shields.io/badge/版本-v1.4-b4533f)](./book-to-learning-html-v1.4-agent.zip)
 [![许可 MIT](https://img.shields.io/badge/许可-MIT-green)](./LICENSE)
 [![离线网页](https://img.shields.io/badge/输出-离线%20HTML-blue)](#快速开始)
 
-![阅读书桌界面预览](./docs/preview.png)
+![阅读书桌界面预览（v1.3）](./docs/preview.png)
+
+上图为 v1.3 预览；v1.4 模板可下载后打开 `assets/reading-desk.html` 查看。
 
 ## 为什么做这个
 
@@ -31,13 +33,13 @@
 
 ### 1. 下载
 
-- [下载 v1.3 智能体包](https://github.com/brucegu17/book-to-learning-html/releases/latest)
-- 或直接取仓库中的 `book-to-learning-html-v1.3-agent.zip`
+- [下载 v1.4 智能体包](./book-to-learning-html-v1.4-agent.zip)
+- 或使用 [v1.4 技能包](./book-to-learning-html-v1.4.skill.zip)（内容相同）
 
 ### 2. 装进 Codex
 
 ```sh
-unzip book-to-learning-html-v1.3-agent.zip -d ~/.codex/skills
+unzip book-to-learning-html-v1.4-agent.zip -d ~/.codex/skills
 ```
 
 也可以解压到你的项目 `skills/` 目录。
@@ -66,7 +68,14 @@ unzip book-to-learning-html-v1.3-agent.zip -d ~/.codex/skills
 - 仓库和发布包**不含任何图书原文**，示例均为虚构内容。
 - 处理某本书，并不转移或削弱作者与出版方的权利。
 
+## v1.4 界面更新
+
+融入 Taste Skill 的设计方法，适配长文与离线阅读：改善字级、正文行宽、首页入口、导航与搜索状态、手机触控区域，补充设计质量检查。本包可独立使用，Taste Skill 为可选参考。
+
 ## 验证情况
+
+v1.4 已通过技能格式、引用与锚点、脚本语法、主要文字配色对比度及包内容一致性检查；桌面首页与概念正文搜索已检查。多尺寸、长章节及其余交互仍待验证，详见 [v1.4 验证记录](./docs/v1.4-validation.json)。
+
 
 v1.3 已完成：
 
