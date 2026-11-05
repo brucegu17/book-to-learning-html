@@ -1,0 +1,4 @@
+interface:
+  display_name: "书籍转学习网页"
+  short_description: "制作、转换、审查或改版书籍学习网页；不用于仅摘要、短书评或普通 PDF 阅读"
+  default_prompt: "使用 $book-to-learning-html，先判断新书整理、知识库转网页、现有学习页改版或仅覆盖审查模式，再按对应范围执行并交付验收记录。"
